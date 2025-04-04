@@ -3,15 +3,16 @@ import studentdetails
 import studentsearch
 
 def menu():
-    print("1 - Registration")
+    print("\n---Student Registration---")
+    print("1 - Register Student")
     print("2 - Get details")
-    print("3 - Search")
+    print("3 - Search Student")
     print("0 - Exit")
  
 def userinput():
     data = []
     while True:
-        task_input = input("Enter task number: ")
+        task_input = input("\nEnter task number: ")
         if task_input.isdigit():
             task_input = int(task_input)
             if task_input == 1:

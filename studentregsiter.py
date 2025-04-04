@@ -1,5 +1,5 @@
 
-def student_register():
+def register_student():
     studentlist = []
     while True:
         studentdict = {}

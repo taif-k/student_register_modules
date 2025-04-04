@@ -1,4 +1,4 @@
-def student_search(data):
+def search_student(data):
     while True:
         search_name = input("Enter name to search: ")
         if search_name.isalpha():

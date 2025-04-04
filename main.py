@@ -16,11 +16,11 @@ def userinput():
         if task_input.isdigit():
             task_input = int(task_input)
             if task_input == 1:
-                data = studentregsiter.student_register()
+                data = studentregsiter.register_student()
             elif task_input == 2:
                 studentdetails.get_student(data)
             elif task_input == 3:
-                studentsearch.student_search(data)
+                studentsearch.search_student(data)
             elif task_input == 0:
                 break
             else:
